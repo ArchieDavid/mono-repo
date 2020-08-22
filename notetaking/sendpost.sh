@@ -1,0 +1,1 @@
+curl -i -X POST -H "Content-Type: application/json" -d @postrequest.json http://localhost:8081/api/notes

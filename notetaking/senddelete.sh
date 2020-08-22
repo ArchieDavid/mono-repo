@@ -1,0 +1,1 @@
+curl -i -X DELETE -H "Content-Type: application/json" http://localhost:8081/api/notes/1
