@@ -1,0 +1,17 @@
+
+{{<base}}
+    {{$header}}
+        {{<header}}
+            {{$title}}NoteTakingApp{{/title}}
+        {{/header}}
+    {{/header}}
+
+    {{$content}}
+        <h1>Hello - {{ notes.userName }}</h1>
+        <ul>
+            {{#notes.noteItems}}
+                <li>{{title}}</li>
+            {{/notes.noteItems}}
+        </ul>
+    {{/content}}
+{{/base}}
